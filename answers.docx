@@ -1,0 +1,190 @@
+SE-Assignment-5: Installation and Navigation of Visual Studio Code (VS Code)
+Installation of VS Code
+Steps to Download and Install Visual Studio Code on Windows 11:
+
+    Download Visual Studio Code:
+        Go to the Visual Studio Code website.
+        Click on the "Download" button and select the installer for Windows.
+
+    Run the Installer:
+        Once the download is complete, open the installer (VSCodeUserSetup-x64-<version>.exe).
+        Follow the on-screen instructions in the installation wizard.
+
+    Accept the License Agreement:
+        Read and accept the license agreement, then click "Next".
+
+    Select Installation Location:
+        Choose the destination folder for the installation. The default location is usually fine. Click "Next".
+
+    Select Additional Tasks:
+        Check the boxes for additional tasks you want to perform, such as creating a desktop icon, adding to the PATH, and registering VS Code as an editor for supported file types. Click "Next".
+
+    Install:
+        Click the "Install" button to begin the installation.
+        Once the installation is complete, click "Finish" to launch Visual Studio Code.
+
+Prerequisites:
+
+    Windows 11: Ensure you are running Windows 11.
+    Administrator Access: You may need administrator access to install software.
+
+First-time Setup
+Initial Configurations and Settings:
+
+    Theme and Appearance:
+        Open VS Code and press Ctrl+Shift+P to open the Command Palette.
+        Type "Preferences: Color Theme" and select a theme that you prefer (e.g., Dark+, Light+).
+
+    Extensions:
+        Install essential extensions by going to the Extensions view (Ctrl+Shift+X).
+        Recommended extensions for web development include:
+            ESLint: JavaScript/TypeScript linting.
+            Prettier - Code Formatter: Code formatting.
+            Live Server: Local development server with live reload.
+            Python: Support for Python development.
+            GitLens: Enhanced Git capabilities.
+
+    Settings:
+        Open the Settings view by clicking the gear icon in the lower left corner and selecting "Settings" or by pressing Ctrl+,.
+        Adjust settings such as font size ("editor.fontSize": 14), line numbers ("editor.lineNumbers": "on"), and auto-save ("files.autoSave": "afterDelay").
+
+User Interface Overview
+Main Components of the VS Code User Interface:
+
+    Activity Bar:
+        Located on the far left side of the window.
+        Provides access to different views like Explorer, Search, Source Control, Run and Debug, and Extensions.
+
+    Side Bar:
+        Located next to the Activity Bar.
+        Displays the content related to the selected activity (e.g., file explorer, search results).
+
+    Editor Group:
+        The main area where you edit files.
+        You can have multiple editor groups by splitting the editor horizontally or vertically.
+
+    Status Bar:
+        Located at the bottom of the window.
+        Shows information about the current file and workspace, such as encoding, line/column number, Git branch, and any active language server.
+
+Command Palette
+What is the Command Palette?
+
+    The Command Palette is a powerful tool in VS Code that provides access to many commands and settings.
+    Access: Press Ctrl+Shift+P or F1 to open the Command Palette.
+
+Common Tasks Using the Command Palette:
+
+    Open a File: File: Open File...
+    Toggle Terminal: View: Toggle Integrated Terminal
+    Change Language Mode: Change Language Mode
+    Install Extensions: Extensions: Install Extensions
+
+Extensions in VS Code
+Role of Extensions:
+
+    Extensions enhance the functionality of VS Code by adding new features, tools, and integrations.
+
+Finding, Installing, and Managing Extensions:
+
+    Find Extensions:
+        Open the Extensions view by pressing Ctrl+Shift+X.
+        Search for the desired extension using the search bar.
+
+    Install Extensions:
+        Click the "Install" button next to the extension you want to install.
+
+    Manage Extensions:
+        Enable, disable, or uninstall extensions from the Extensions view.
+
+Essential Extensions for Web Development:
+
+    ESLint: JavaScript/TypeScript linting.
+    Prettier - Code Formatter: Code formatting.
+    Live Server: Local development server with live reload.
+    Python: Support for Python development.
+    GitLens: Enhanced Git capabilities.
+
+Integrated Terminal
+Opening and Using the Integrated Terminal:
+
+    Open Integrated Terminal:
+        Press Ctrl+ (backtick) or use the Command Palette (Ctrl+Shift+P) and type View: Toggle Integrated Terminal`.
+
+    Using the Terminal:
+        Run commands just as you would in an external terminal.
+        You can open multiple terminal instances and switch between them.
+
+Advantages of Using the Integrated Terminal:
+
+    Convenience: Access terminal commands without leaving the editor.
+    Project Context: The terminal starts in the context of the current project.
+    Integrated Output: View terminal output alongside code, making debugging and development more efficient.
+
+File and Folder Management
+Creating, Opening, and Managing Files and Folders:
+
+    Create a New File:
+        Right-click in the Explorer view and select "New File" or press Ctrl+N.
+
+    Create a New Folder:
+        Right-click in the Explorer view and select "New Folder".
+
+    Open a File:
+        Use Ctrl+O to open a file dialog or double-click on a file in the Explorer view.
+
+    Navigate Between Files:
+        Use the Explorer view or press Ctrl+P to quickly search and open files.
+
+Settings and Preferences
+Finding and Customizing Settings:
+
+    Open Settings:
+        Click the gear icon in the lower left corner and select "Settings" or press Ctrl+,.
+
+    Change Theme:
+        Go to the Command Palette (Ctrl+Shift+P), type "Preferences: Color Theme", and select a theme.
+
+    Change Font Size:
+        Search for editor.fontSize in the Settings and set the desired font size.
+
+    Change Keybindings:
+        Click the gear icon and select "Keyboard Shortcuts" or press Ctrl+K Ctrl+S.
+        Customize keybindings to suit your workflow.
+
+Debugging in VS Code
+Setting Up and Starting Debugging:
+
+    Open the Debug View:
+        Click the Run and Debug icon in the Activity Bar or press Ctrl+Shift+D.
+
+    Configure the Debugger:
+        Click "create a launch.json file" to configure the debugger for your project.
+
+    Add Breakpoints:
+        Click in the gutter next to the line numbers to add breakpoints.
+
+    Start Debugging:
+        Click the green play button or press F5 to start debugging.
+
+Key Debugging Features:
+
+    Breakpoints: Pause execution at specific lines of code.
+    Watch: Monitor the value of variables.
+    Call Stack: View the call stack and navigate to the code where functions were called.
+    Debug Console: Evaluate expressions and run commands in the context of the paused program.
+
+Using Source Control
+Integrating Git with VS Code:
+
+    Initialize a Repository:
+        Open the Source Control view by clicking the Source Control icon in the Activity Bar or press Ctrl+Shift+G.
+        Click "Initialize Repository" to create a new Git repository.
+
+    Making Commits:
+        Stage changes by clicking the "+" icon next to files or using the Command Palette (Git: Stage All Changes).
+        Enter a commit message and click the checkmark icon or use the Command Palette (Git: Commit).
+
+    Pushing Changes to GitHub:
+        Open the Command Palette and type Git: Push.
+        Follow the prompts to authenticate with GitHub and push your changes.
